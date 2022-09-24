@@ -3,20 +3,23 @@
 Snapshot Template
 http://www.templatemo.com/tm-493-snapshot
 
-*/
 
+
+*/
 
 /* Body 
 ------------------------------------- */
+
 body {
-    background: #ffffff;   
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    position: relative;
+  background: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  position: relative;
 }
 
-html,body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -25,12 +28,14 @@ html {
   font-size: 100%;
 }
 
-
 /*---------------------------------------
     Typorgraphy              
 -----------------------------------------*/
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 300;
 }
 
@@ -64,12 +69,13 @@ p {
 }
 
 #home p,
-#contact p, footer p {
+#contact p,
+footer p {
   color: #f9f9f9;
 }
 
 .btn {
-  border:none;
+  border: none;
   border-radius: 4px;
   transition: all 0.4s ease-in-out;
 }
@@ -98,7 +104,9 @@ a {
   transition: 0.5s;
   text-decoration: none !important;
 }
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #e44c65;
   outline: none;
 }
@@ -115,8 +123,6 @@ a:hover, a:active, a:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-
 
 /*---------------------------------------
     All Section style              
@@ -144,7 +150,8 @@ a:hover, a:active, a:focus {
 }
 
 #gallery,
-#contact, footer {
+#contact,
+footer {
   text-align: center;
 }
 
@@ -159,24 +166,22 @@ a:hover, a:active, a:focus {
   right: 0;
 }
 
-
-
 /*---------------------------------------
     Pre Loader Style              
 -----------------------------------------*/
 
 .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    background: none repeat scroll 0 0 #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #fff;
 }
 
 .sk-spinner-pulse {
@@ -186,27 +191,32 @@ a:hover, a:active, a:focus {
   border-radius: 100%;
   margin: 40px auto;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
-          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+  animation: sk-pulseScaleOut 1s infinite ease-in-out;
+}
 
 @-webkit-keyframes sk-pulseScaleOut {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0); }
+    transform: scale(0);
+  }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 0; } }
+    transform: scale(1);
+    opacity: 0;
+  }
+}
 
 @keyframes sk-pulseScaleOut {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0); }
+    transform: scale(0);
+  }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
-    opacity: 0; } }
-
-
+    transform: scale(1);
+    opacity: 0;
+  }
+}
 
 /*---------------------------------------
     Main Navigation             
@@ -228,15 +238,15 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a {
-    color: #777;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    padding-right: 22px;
-    padding-left: 22px;
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-right: 22px;
+  padding-left: 22px;
 }
 
 .navbar-default .navbar-nav li a span {
@@ -246,7 +256,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav li a span:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 2px;
@@ -283,38 +293,37 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #304352 !important;
+  color: #304352 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #777;
-    background-color: transparent;
+  color: #777;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #304352;
-    background-color: transparent;
+  color: #304352;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
-     border: none;
-     padding-top: 10px;
-  }
+  border: none;
+  padding-top: 10px;
+}
 
 .navbar-default .navbar-toggle .icon-bar {
-    border-color: transparent;
-  }
+  border-color: transparent;
+}
 
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { 
+.navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
-  
   .navbar-default .navbar-nav li a span:before {
     background: transparent !important;
   }
@@ -330,8 +339,6 @@ a:hover, a:active, a:focus {
   }
 }
 
-
-
 /*---------------------------------------
     Home Section              
 -----------------------------------------*/
@@ -343,8 +350,8 @@ a:hover, a:active, a:focus {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-        align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100vh;
   text-align: center;
 }
@@ -356,8 +363,6 @@ a:hover, a:active, a:focus {
 #home .col-md-8 {
   padding-left: 62px;
 }
-
-
 
 /*---------------------------------------
     About Section              
@@ -452,93 +457,9 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
-
-
-/*---------------------------------------
-    Galllery section              
------------------------------------------*/
-
-#gallery {
-  background: #ffffff;
-}
-
-#gallery .gallery-thumb {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-  cursor: pointer;
-  display: block;
-  margin-bottom: 25px;
-  position: relative;
-  top: 0px;
-  transition: all 0.4s ease-in-out;
-}
-
-#gallery .gallery-thumb:hover {
-  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
-  top: -5px;
-}
-
-#gallery .gallery-thumb img {
-  border-top-right-radius: 2px;
-  border-bottom-left-radius: 2px;
-  width: 100%;
-}
-
-
-
-/*---------------------------------------
-    Contact section              
------------------------------------------*/
-
-#contact, footer {
-  background: #304352;
-  color: #ffffff;
-}
-
-#contact .form-control {
-  background: transparent;
-  box-shadow: none;
-  border: 1px solid #f9f9f9;
-  color: #ccc;
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 14px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:focus {
-  border-color: #e44c65;
-  color: #ffffff;
-}
-
-#contact input {
-  height: 55px;
-}
-
-#contact input[type="submit"] {
-  background: #e44c65;
-  border:none;
-  color: #ffffff;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-#contact input[type="submit"]:hover {
-  background: #222;
-  color: #ffffff;
-}
-
-
-
 /*---------------------------------------
     Footer section             
 -----------------------------------------*/
-
-footer {
-  padding-bottom: 80px;
-}
-
-
 
 /*---------------------------------------
     Social icons style              
@@ -572,16 +493,14 @@ footer {
   color: #e44c65;
 }
 
-
-
 /*---------------------------------------
    Back top         
 -----------------------------------------*/
 
 .go-top {
   background-color: #ffffff;
-  box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
-  transition : all 1s ease;
+  box-shadow: 1px 1.732px 12px 0px rgba(0, 0, 0, 0.14), 1px 1.732px 3px 0px rgba(0, 0, 0, 0.12);
+  transition: all 1s ease;
   bottom: 2em;
   right: 2em;
   color: #222;
@@ -601,14 +520,12 @@ footer {
   color: #ffffff;
 }
 
-
-
 /*---------------------------------------
    Responsive Mobile         
 -----------------------------------------*/
 
 @media (max-width: 980px) {
-/* 
+  /* 
   #home, .overlay {
     height: 50vh;
   }
@@ -616,13 +533,11 @@ footer {
   #about .team-thumb {
     margin-top: 32px;
   }
-
 }
 
-
 @media (max-width: 767px) {
-
-  #home, .overlay {
+  #home,
+  .overlay {
     height: 100vh;
   }
 
@@ -637,13 +552,9 @@ footer {
     top: 0;
     left: 0;
   }
-
 }
 
-
-
 @media (max-width: 650px) {
-
   h1 {
     font-size: 1.6rem;
   }
@@ -662,9 +573,4 @@ footer {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
 }
-
-
-
-
